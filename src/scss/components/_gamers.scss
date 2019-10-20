@@ -1,0 +1,418 @@
+.gamers {
+    margin-top: 5px;
+    margin-bottom: 80px;
+}
+
+.gamer {
+
+    &__list {
+        margin-bottom: 30px;
+    }
+
+    &__list__header {
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        margin: 0 -20px;
+
+        >div {
+            padding: 0 20px;
+            position: relative;
+            font-size: 14px;
+            color: #393949;
+            font-family: $museo-300;
+
+            &:nth-child(1) {
+                width: 17%;
+                min-width: 17%;
+            }
+
+            &:nth-child(2) {
+                width: 15.5%;
+                min-width: 15.5%;
+            }
+
+            &:nth-child(3) {
+                width: 5.5%;
+                min-width: 5.5%;
+            }
+
+            &:nth-child(4) {
+                width: 7.5%;
+                min-width: 7.5%;
+            }
+
+            &:nth-child(5) {
+                width: 24.5%;
+                min-width: 24.5%;
+            }
+
+            &:nth-child(6) {
+                width: 30%;
+                min-width: 30%;
+            }
+
+            &:after {
+                content: '';
+                width: 1px;
+                height: 20px;
+                background: #1b1b27;
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            &:last-child {
+                &:after {
+                    content: none;
+                }
+            }
+        }
+    }
+
+    &__list__body {
+        background-image:linear-gradient(-106deg, transparent, #1f1f2a);
+        padding-left: 1px;
+        padding-bottom: 1px;
+        border-radius: 0 0 20px 20px;
+        position: relative;
+    }
+
+    &__logo {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        background: #1b1b27;
+        border-radius: 10px 0 0 10px;
+        position: absolute;
+        top: 0;
+        left: -59px;
+        border-right: 1px solid #262636;
+        z-index: 5;
+        text-align: center;
+
+        img {
+            max-width: 50px;
+            max-height: 50px;
+        }
+    }
+
+    &__list__body__bg {
+        padding: 0 30px;
+        background: #16161e;
+        border-radius: 0 0 20px 20px;
+    }
+
+    &__list__item {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 -20px;
+        padding: 29px 0;
+        border-bottom: 1px solid #1b1b27;
+
+        >div {
+            padding: 0 20px;
+            position: relative;
+
+            &:after {
+                content: '';
+                width: 1px;
+                height: 46px;
+                background: #1b1b27;
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            &:last-child {
+                border-radius: 0 0 20px 20px;
+                &:after {
+                    content: none;
+                }
+            }
+        }
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+    &__data {
+        width: 17%;
+        min-width: 17%;
+        display: flex;
+        align-items: center;
+    }
+
+    &__ava {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__info {
+        flex: 1;
+        min-width: 0;
+    }
+
+    &__name {
+        font-family: $museo-500;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 0;
+        white-space: nowrap;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &__lvl {
+        font-family: $museo-300;
+        font-size: 12px;
+        color: #9292ab;
+        margin: 0;
+    }
+
+    &__hero {
+        width: 15.5%;
+        min-width: 15.5%;
+        display: flex;
+        align-items: center;
+        font-family: $museo-500;
+    }
+
+    &__hero__img {
+        width: 72px;
+        height: 40px;
+        margin-right: 19px;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__stat__label {
+        font-size: 15px;
+        color: #9292ab;
+        line-height: 1;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    &__stat {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        li {
+            font-size: 15px;
+            color: #fff;
+            padding-right: 13px;
+            position: relative;
+
+            &:after {
+                content: '/';
+                position: absolute;
+                right: 2px;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #2b2b3a;
+            }
+
+            &:last-child {
+                padding-right: 0;
+
+                &:after {
+                    content: none;
+                }
+            }
+        }
+    }
+
+    &__winrate {
+        width: 5.5%;
+        min-width: 5.5%;
+        font-size: 16px;
+        line-height: 1;
+        color: $green;
+        font-family: $museo-500;
+        text-align: center;
+
+        &.loser {
+            color: $red;
+        }
+    }
+
+    &__farm {
+        width: 7.5%;
+        min-width: 7.5%;
+        font-family: $museo-500;
+        font-size: 16px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    &__skils {
+        width: 24.5%;
+        min-width: 24.5%;
+        display: flex;
+        align-items: center;
+
+        &__list {
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+
+            li {
+                position: relative;
+                width: 40px;
+                height: 40px;
+                margin-right: 5px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                .gamer__skils__lvl {
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    list-style-type: none;
+                    display: flex;
+                    justify-content: center;
+                    position: absolute;
+                    left: 0;
+                    bottom: -3px;
+                    
+                    li {
+                        width: 6px;
+                        height: 6px;
+                        margin-right: 3px;
+                        background: #33334c;
+
+                        &:last-child {
+                            margin-right: 0;
+                        }
+
+                        &.active {
+                            background: $green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__talant {
+        position: relative;
+
+        &__panel {
+            position: absolute;
+            width: 450px;
+            left: 50%;
+            top: 0;
+            transform: translate(-50%, -107%);
+            padding: 1px;
+            background-image:linear-gradient(13deg, transparent, #3a3a4e);
+            border-radius: 15px;
+            display: none;
+
+            &:after {
+                content: '';
+                border-left: 6px solid transparent;
+                border-right: 6px solid transparent;
+                border-top: 12px solid #1e1e2b;
+                position: absolute;
+                left: 50%;
+                bottom: -12px;
+                transform: translateX(-6px);
+            }
+        }
+
+        &__list {
+            background: #1e1e2b;
+            border-radius: 15px;
+            overflow: hidden;
+            padding: 0 23px;
+            margin: 0;
+            list-style-type: none;
+
+            li {
+                display: flex;
+                align-items: center;
+                border-bottom: 1px solid #232331;
+                height: 60px;
+
+                &>div:nth-child(3) {
+                    text-align: left;
+                }
+            }
+        }
+
+        &__lvl {
+            width: 76px;
+            text-align: center;
+            font-family: $museo-500;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        &__item {
+            width: calc((100% - 76px)/2);
+            text-align: right;
+            font-family: $museo-300;
+            font-size: 14px;
+            color: #585868;
+            line-height: 1.1;
+
+            &.active {
+                color: $green;
+            }
+        }
+
+        &:hover {
+            .gamer__talant__panel {
+                display: block;
+            }
+        }
+    }
+
+    &__items__list {
+        width: 30%;
+        min-width: 30%;
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        width: 54px;
+        height: 40px;
+        margin-right: 5px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

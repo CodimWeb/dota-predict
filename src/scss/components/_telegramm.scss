@@ -1,0 +1,76 @@
+.telegramm {
+    border-radius: 15px;
+    position: relative;
+    border: 1px solid transparent;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 35px;
+
+    &__panel {
+        border-radius: 15px;
+        background: url(../../img/telega-bg.jpg) no-repeat center center /cover;
+        padding: 23px 33px;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__title {
+        font-family: $museo-700;
+        font-size: 16px;
+        line-height: 18px;
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: 3px;
+
+        span {
+            color: #009ae4;
+        }
+    }
+
+    &__subtitle {
+        font-size: 15px;
+        color: #75758a;
+        margin: 0;
+    }
+
+    &:after {
+        content: '';
+        width: 100%;
+        position: absolute;
+        left: -1px;
+        top: -1px;
+        bottom: -1px;
+        background-image: linear-gradient(to right, #1f1f2a, transparent);
+        border-radius: 15px;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.telegramm-lg {
+    border-radius: 15px;
+    background: url(../../img/telega-lg-bg.jpg) no-repeat center top /cover;
+    padding: 40px 34px;
+    margin-bottom: 30px;
+
+    &__title {
+        font-size: 20px;
+        font-family: $museo-700;
+        color: #54c7ff;
+        line-height: 24px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__subtitle {
+        font-size: 15px;
+        line-height: 17px;
+        font-family: $museo-300;
+        color: #cacae8;
+        margin-bottom: 240px;
+        text-align: center;
+    }
+}

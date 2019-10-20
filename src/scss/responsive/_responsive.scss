@@ -1,0 +1,787 @@
+@media (max-width: 1439px) {
+    .live__nav {
+        position: static;
+        transform: translateX(0);
+        width: 240px;
+        border-radius: 15px 15px 0 0;
+        overflow: hidden;
+    }
+
+    .live__nav__container {
+        flex-direction: row;
+    }
+
+    .btn-toggle {
+        width: 120px;
+        min-width: 120px;
+        height: 57px;
+        display: flex;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .btn-toggle span {
+        height: 100%;
+        width: 50%;
+    }
+
+    .btn-toggle:after {
+        width: 1px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 1339px) {
+    .telegramm-lg {
+        padding: 40px 20px;
+    }
+
+    .rating__panel {
+        padding: 32px 20px 23px;
+    }
+
+    //detail
+    .gamer__list__header {
+        padding: 15px 10px;
+        margin: 0 -10px;
+    }
+
+    .gamer__list__header>div {
+        padding: 0 10px;
+    }
+    
+    .gamer__list__body__bg {
+        padding: 0 10px;
+    }
+
+    .gamer__list__item {
+        margin: 0 -10px;
+    }
+
+    .gamer__list__item>div {
+        padding: 0 10px;
+    }
+
+    .gamer__ava {
+        margin-right: 10px;
+    }
+
+    .gamer__skils__list li {
+        width: 37px;
+        height: 37px;
+    }
+
+    .gamer__item {
+        width: 50px;
+        height: 37px;
+    }
+}
+
+@media (max-width: 1199px) {
+    [class*="col"] {
+        padding: 0 12px;
+    }
+
+    .logo__img {
+        max-width: 192px;
+    }
+
+    .header .navbar {
+        border: none;
+    }
+
+    .header .navbar .nav-item {
+        margin-right: 35px;
+    }
+
+    .header__lang {
+        margin-left: 0;
+    }
+
+    .match__panel {
+        padding: 25px 20px 0;
+    }
+
+    .match__team {
+        width: 180px;
+        min-width: 180px;
+    }
+
+    .match__team__logo {
+        width: 50px;
+        min-width: 50px;
+        height: 50px;
+    }
+
+    .match__team__1 .match__team__logo {
+        margin-right: 15px;
+    }
+
+    .match__team__2 .match__team__logo {
+        margin-left: 15px;
+    }
+
+    .match__team__name {
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+    
+    .match__status ul {
+        margin: 0 0 2px;
+    }
+
+    .match__status ul li {
+        font-size: 13px;
+        padding-right: 10px;
+    }
+
+    .match__status ul li:after {
+        font-size: 15px;
+        right: 2px;
+    }
+
+    .match__detail__text {
+        width: 140px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 5px;
+    }
+
+    .coefficient__table__header {
+        font-size: 13px;
+    }
+
+    .rating__list li.rating__item,
+    .rating__list li .rating__item {
+        font-size: 14px;
+        height: 46px;
+    }
+
+    .telegramm-lg__title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .telegramm-lg__subtitle {
+        font-size: 14px;
+        margin-bottom: 180px;
+    }
+
+    .btn-telegramm-lg {
+        padding: 16px 0;
+    }
+
+    //detail
+    .detail__match__header .match__panel {
+        padding: 53px 0 0;
+    }
+
+    .gamer__list {
+        margin-bottom: 90px;
+    }
+
+    .gamer__list__header {
+        display: none;
+    }
+
+    .gamer__list__body {
+        margin-top: 60px;
+    }
+
+    .gamer__list__body__bg {
+        padding: 0 20px;
+    }
+
+    .gamer__list__item>div {
+        padding: 0 15px;
+    }
+
+    .gamer__logo {
+        left: 0;
+        top: -60px;
+        border-right: 0;
+        border-radius: 10px 10px 0 0;
+        width: 70px;
+    }
+
+    .gamer__list__item {
+        flex-wrap: wrap;
+    }
+
+    .gamer__data {
+        width: 34%;
+        min-width: 34%;
+        order: 1;
+    }
+
+    .gamer__hero {
+        // width: 31%;
+        // min-width: 31%;
+        flex: 1;
+        order: 4;
+        margin-top: 15px;
+    }
+
+    .gamer__winrate {
+        width: 11%;
+        min-width: 11%;
+        order: 2;
+    }
+
+    .gamer__farm {
+        width: 55%;
+        min-width: 55%;
+        order: 3;
+        text-align: left;
+    }
+
+    .gamer__skils {
+        width: 34%;
+        min-width: 34%;
+        margin-top: 15px;
+        order: 5;
+    }
+
+    .gamer__items__list {
+        width: 40%;
+        min-width: 40%;
+        margin-top: 15px;
+        order: 6;
+    }
+
+    .gamer__list__item>div:after {
+        content: none;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .logo__img {
+        max-width: 162px;
+    }
+
+    .header .navbar .nav-item {
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .header .navbar .nav-item .nav-link {
+        font-size: 13px;
+    }
+
+    .header__lang__item {
+        font-size: 14px;
+    }
+
+    .telegramm-lg {
+        background-position: center -50px;
+        padding: 40px 60px;
+    }
+
+    .telegramm-lg__subtitle {
+        margin-bottom: 50px;
+    }
+
+    .news {
+        margin-bottom: 35px;
+    }
+
+    .footer {
+        padding: 25px 0;
+    }
+
+    .footer-nav__item {
+        margin-right: 10px;
+    }
+    
+    .footer__copy {
+        margin: 0 0 0 15px;
+    }
+
+    //detail
+    .detail__match__header .match__team {
+        width: calc((100% - 270px)/2);
+        min-width: calc((100% - 270px)/2);
+    }
+
+    .detail__match__header .match__status {
+        width: 270px;
+        max-width: 270px;
+    }
+
+    .match__time__panel {
+        margin: 5px 25px 0;
+    }
+
+    .match__score__count {
+        font-size: 24px;
+    }
+
+    .detail__match__header .match__team__logo {
+        width: 50px;
+        min-width: 50px;
+        height: 50px;
+    }
+
+    .detail__match__header .match__team__1 .match__team__logo {
+        margin-right: 15px;
+    }
+
+    .detail__match__header .match__team__2 .match__team__logo {
+        margin-left: 15px;
+    }
+
+    .detail__match__header .match__team__name {
+        font-size: 20px;
+        margin: 10px 0 4px;
+    }
+
+    .detail__match__header .match-progress {
+        margin-top: 25px;
+    }
+
+    .detail__live__container {
+        margin-bottom: 40px;
+    }
+
+    .gamer__skils {
+        width: 70%;
+    }
+
+    .gamer__skils__list li {
+        width: 40px;
+        height: 40px;
+        margin-right: 7px;
+    }
+
+    .gamer__items__list {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+
+    .header .navbar {
+        margin: 0;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        background: #16161e;
+        z-index: 20;
+    }
+
+    .navbar-nav {
+        padding: 10px 0;
+    }
+
+    .header .navbar .nav-item {
+        margin: 0;
+    }
+
+    .header .navbar .nav-item .nav-link {
+        font-size: 15px;
+        padding: 3px 0;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        margin-left: 20px;
+        padding: 3px 0;
+    }
+
+    .header__lang {
+        margin-left: auto;
+    }
+
+    .btn-toggle {
+        height: 47px;
+    }
+
+    .btn-toggle span img {
+        max-height: 35px;
+    }
+
+    .match__panel {
+        padding: 15px 15px 0;
+    }
+
+    .match__team {
+        width: 50%;
+        min-width: 50%;
+    }
+
+    .match__team__name {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .match__team__chanсe {
+        font-size: 16px;
+    }
+
+    .match__status ul {
+        display: none;
+    }
+
+    .match__detail {
+        width: 150px;
+        padding: 0 15px;
+    }
+
+    .match__detail__text {
+        width: 120px;
+        font-size: 12px;
+        line-height: 13px;
+        padding: 7px 5px;
+    }
+
+    .match__team__pic__container {
+        width: calc((100% - 150px)/2);
+        margin-top: 5px;
+    }
+
+    .coefficient__table__header {
+        font-size: 11px;
+    } 
+
+    .coefficient__table__body .coefficient__table__td {
+        font-size: 14px;
+    }
+
+    .match__nav {
+        margin-top: 30px;
+    }
+
+    .match__nav .live__title {
+        margin-right: 35px;
+        font-size: 14px;
+    }
+
+    .match__nav .live__title p {
+        padding: 12px 0;
+    }
+
+    .match__list__item .match__team {
+        width: 185px;
+        min-width: 185px;
+    }
+
+    .match__status P {
+        font-size: 12px;
+    }
+
+    .match__date span:last-child {
+        margin-left: 8px;
+    }
+
+    .btn-more {
+        margin-bottom: 30px;
+    }
+
+    .footer-nav {
+        display: none;
+    }
+
+    .footer__copy {
+        margin-left: auto;
+    }
+
+    //detail
+
+    .detail__match__header .match__info {
+        flex-wrap: wrap;
+    }
+
+    .detail__match__header .match__status {
+        order: 1;
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .detail__match__header .match__team {
+        width: 50%;
+        min-width: 50%;
+    }
+
+    .detail__match__header .match__team__1 {
+        order: 2;
+    }
+
+    .detail__match__header .match__team__2 {
+        order: 3;
+    }
+
+    .gamer__data {
+        width: 50%;
+        min-width: 50%;
+    }
+
+    .gamer__winrate {
+        width: 20%;
+        min-width: 20%;
+    }
+
+    .gamer__farm {
+        width: 30%;
+        min-width: 30%;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .match__detail {
+        width: 140px;
+        padding: 0 10px;
+    }
+
+    .match__team__pic {
+        padding-top: 15px;
+    }
+
+    .match__list .match__panel {
+        padding-bottom: 20px;
+    }
+
+    .match__list__item .match__team {
+        width: 150px;
+        min-width: 150px;
+    }
+
+    .match__team__logo {
+        width: 40px;
+        min-width: 40px;
+        height: 40px;
+    }
+
+    .match__team__1 .match__team__logo {
+        margin-right: 10px;
+    }
+
+    .match__team__2 .match__team__logo {
+        margin-left: 10px;
+    }
+
+    .match__team__name {
+        font-size: 14px;
+    }
+
+    .match__team__chanсe {
+        font-size: 14px;
+    }
+
+    .match__list .match__status {
+        margin-top: 5px;
+    }
+
+    //detail
+
+    .gamer__list__body__bg {
+        padding: 0 10px;
+    }
+
+    .gamer__skils {
+        width: 100%;
+    }
+
+    .gamer__talant__panel {
+        z-index: 10;
+        width: 340px;
+    }
+
+    .gamer__talant__list {
+        padding: 0 15px;
+    }
+
+    .gamer__talant__item {
+        font-size: 12px;
+        width: calc((100% - 50px)/2);
+    }
+
+    .gamer__talant__lvl {
+        width: 50px;
+    }
+}
+
+@media (max-width: 479px) {
+    .header .navbar-toggler-icon {
+        width: 25px;
+    }
+
+    .header .navbar-toggler-icon span {
+        margin-bottom: 5px;
+    }
+
+    .live__nav {
+        width: 200px;
+    }
+
+    .btn-toggle {
+        width: 100px;
+        min-width: 100px;
+        height: 40px;
+
+    }
+
+    .btn-toggle span img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    .match__detail {
+        display: none;
+    }
+
+    .match__team__pic__container {
+        width: 46%;
+        margin-top: 0;
+    }
+
+    .coefficient__table__header .coefficient__table__td:nth-child(3) {
+        font-size: 0;
+        opacity: 0;
+    }
+
+    .match__nav {
+        margin: 20px 0;
+    }
+
+    .match__nav .live__title {
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .match__list .match__info {
+        flex-wrap: wrap;
+    }
+
+    .match__list__item .match__team {
+        width: 50%;
+        min-width: 50%;
+    }
+
+    .match__list__item .match__team__1 {
+        order: 2;
+    }
+
+    .match__list__item .match__team__2 {
+        order: 3;
+    }
+
+    .match__list .match__status {
+        order: 1;
+        width: 100%;
+        flex: 0 0 auto;
+        margin: 0 0 5px;
+    }
+
+    .telegramm-lg {
+        padding: 30px 20px;
+    }
+
+    //detail
+    .detail__match__header .match__team__logo {
+        width: 40px;
+        min-width: 40px;
+        height: 40px;
+    }
+
+    .detail__match__header .match__team__1 .match__team__logo {
+        margin-right: 10px;
+    }
+
+    .detail__match__header .match__team__2 .match__team__logo {
+        margin-left: 10px;
+    }
+
+    .detail__match__header .match__team__name {
+        font-size: 14px;
+    }
+
+    .detail__match__header .match__team__chanсe__title {
+        display: none;
+    }
+
+    .gamers {
+        margin-bottom: -50px;
+    }
+
+    .gamer__list__item>div {
+        padding: 0 10px;
+    }
+
+    .gamer__data {
+        width: 60%;
+        min-width: 60%;
+    }
+
+    .gamer__name {
+        font-size: 15px;
+    }
+
+    .gamer__winrate {
+        width: 16%;
+        min-width: 16%;
+        font-size: 14px;
+    }
+
+    .gamer__farm {
+        width: 24%;
+        min-width: 24%;
+        font-size: 14px;
+    }
+
+    .gamer__talant__panel {
+        right: -37px;
+        left: auto;
+        transform: translate(0, -107%);
+    }
+
+    .gamer__talant__panel:after {
+        left: auto;
+        right: 45px;
+    }
+}
+
+@media (max-width: 359px) {
+
+    .logo__img {
+        max-width: 132px;
+    }
+
+    .match__nav .live__title {
+        font-size: 11px;
+        margin-right: 15px;
+    }
+
+    .gamer__skils__list li {
+        width: 37px;
+        height: 37px;
+        margin-right: 5px;
+    }
+
+    .gamer__talant__panel {
+        width: 280px;
+        right: -15px;
+    }
+
+    .gamer__talant__list {
+        padding: 0 5px;
+    }
+
+    .gamer__talant__panel:after {
+        right: 24px;
+    }
+
+    .gamer__talant__lvl {
+        width: 40px;
+        font-size: 14px;
+    }
+
+    .gamer__talant__item {
+        font-size: 11px;
+        width: calc((100% - 40px)/2);
+    }
+}

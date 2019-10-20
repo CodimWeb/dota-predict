@@ -1,0 +1,81 @@
+.live {
+
+    &__title__panel {
+        padding: 44px 0 32px;
+    }
+
+    &__title {
+        font-family: $museo-700;
+        text-transform: uppercase;
+        font-size: 16px;
+
+        p {
+            display: inline-block;
+            margin: 0;
+            padding-right: 19px;
+            position: relative;
+        }
+
+        span {
+            color: $green;
+        }
+
+        &__point {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: $green;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            box-shadow: 0 0 5px 2px rgba(102, 216, 0, .5);
+        }
+
+        &__icon {
+            margin-left: auto;
+        }
+    }
+
+    &__nav {
+        position: relative;
+        border-radius: 15px 0 0 15px;
+        background: #1b1b27;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);
+        width: 57px;
+
+        &:before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            border-radius: 15px 0 0 15px;
+            position: absolute;
+            left: -1px;
+            top: 0;
+            background-image: linear-gradient(to right, #1f1f2a, transparent);
+        }
+    }
+
+    &__nav__container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 2;
+        background: #1b1b27;
+        border-radius: 15px 0 0 15px;
+    }
+
+    &__container {
+        border-radius: 0 20px 0 0;
+        position: relative;
+    }
+
+    &__statistic {
+        position: relative;
+        z-index: 3;
+    }
+}

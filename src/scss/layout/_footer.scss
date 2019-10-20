@@ -1,0 +1,42 @@
+.footer {
+    background: #18181d;
+    padding: 45px 0;
+    
+    &__panel {
+        display: flex;
+        align-items: center;
+    }
+
+    &__copy {
+        font-size: 14px;
+        color: #333339;
+        margin: 0 0 0 30px;
+    }
+
+    &-nav {
+        display: flex;
+        list-style-type: none;
+        margin: 0 0 0 auto;
+        padding: 0;
+
+        &__item {
+            margin-right: 49px;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+
+        &__link {
+            font-size: 14px;
+            color: #333339;
+            text-decoration: none;
+            transition: 0.25s ease-in-out;
+
+            &:hover {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}

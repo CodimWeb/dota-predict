@@ -1,0 +1,15 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+    background-image: url(../../img/body-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #13131a;
+}
+
+.container {
+    @media (min-width: 1330px) {
+        min-width: 1330px;
+    }
+}

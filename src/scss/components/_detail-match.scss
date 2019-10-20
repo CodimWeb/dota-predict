@@ -1,0 +1,65 @@
+.detail__match__header {
+
+    .match__panel {
+        padding: 53px 48px 0;
+        border-radius: 0;
+        background: transparent;
+        margin-bottom: 40px;
+    }
+
+    .match__status {
+        width: 360px;
+        max-width: 360px;
+        flex: 0 0 360px;
+        padding: 0 10px;
+    }
+
+    .match__status ul li {
+        color: #9292ab;
+    }
+
+    .match__team {
+        width: calc((100% - 360px) / 2);
+        min-width: calc((100% - 360px) / 2);
+    }
+
+    .match__team__logo {
+        width: 70px;
+        min-width: 70px;
+        height: 70px;
+    }
+
+    .match__team__1 .match__team__logo {
+        margin-right: 24px;
+    }
+
+    .match__team__2 .match__team__logo {
+        margin-left: 24px;
+    }
+
+    .match__team__name {
+        font-size: 24px;
+        line-height: 1;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .match__team .match__team__chanсe {
+        font-size: 14px;
+        line-height: 1;
+        font-family: $museo-300;
+    }
+
+    .match__team__chanсe__title {
+        color: #9292ab;
+    }
+
+    .match-progress {
+        height: 4px;
+        margin-top: 40px;
+    }
+
+    .match-progress .progress-bar {
+        height: 4px;
+    }
+}

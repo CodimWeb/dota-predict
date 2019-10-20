@@ -1,0 +1,94 @@
+.rating__panel {
+    padding: 42px 59px 23px;
+    border-radius: 20px;
+    background: #16161e;
+    border: 1px solid #2b2b39;
+    margin-bottom: 37px;
+
+    .live__title p {
+        padding: 0;
+        display: block;
+    }
+
+    .live__title__icon {
+        margin-left: auto;
+        float: right;
+    }
+
+}
+
+.rating__panel__header {
+    padding-bottom: 25px;
+}
+
+.rating__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li.rating__item,
+    li .rating__item {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: $museo-300;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    li {
+        &:nth-child(1) .rating__item__score {
+            font-family: $museo-700;
+            color: #ffde00;
+        }
+
+        &:nth-child(2) .rating__item__score {
+            font-family: $museo-700;
+        }
+
+        &:nth-child(3) .rating__item__score {
+            font-family: $museo-700;
+            color: #a95e0d;
+        }
+    }
+
+    li .rating__item:hover {
+        .rating__item__name {
+            color: $green;
+            text-decoration: underline;
+        }
+    }
+}
+
+.rating__item__pos {
+    color: #6d6d81;
+    width: 24px;
+}
+
+.rating__item__logo {
+    width: 52px;
+    margin: 0 13px 0 4px;
+}
+
+.rating__item__logo img {
+    max-width: 100%;
+}
+
+.rating__item__name {
+    flex: 1;
+    white-space: nowrap;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rating__item__score {
+    margin-left: 15px;
+}

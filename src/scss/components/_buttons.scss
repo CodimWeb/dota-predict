@@ -1,0 +1,96 @@
+.btn {
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 15px;
+    padding: 13px 28px;
+    color: #fff;
+    border-radius: 8px;
+    white-space: nowrap;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff;
+    }
+}
+
+.btn-more {
+    background: #16161e;
+    font-size: 14px;
+    color: #75758a;
+    padding: 19px 0;
+    border: none;
+    margin-bottom: 76px;
+
+    &:hover {
+        background: #1b1b27;
+        color: #75758a;
+    }
+
+    &:focus,
+    &:active {
+        color: #75758a;
+    }
+}
+
+.btn-toggle {
+    width: 57px;
+    min-width: 57px;
+    height: 120px;
+    border-radius: 15px 0 0 15px;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid transparent;
+
+    span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+
+        img {
+            max-width: 37px;
+            max-height: 45px;
+        }
+    }
+
+    &:after {
+        content: '';
+        width: 30px;
+        height: 1px;
+        background: #2a2a3e;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &.active {
+        background: #3d8200;
+        border: 1px solid #77af2b;
+        border-right: none;
+
+        &:after {
+            background: #4b9e00;
+        }
+    }
+}
+
+
+.btn-telegramm-lg {
+    background-image: linear-gradient(to bottom, #2ca4df, #1d87ba);
+    padding: 20px 0;
+    font-size: 16px;
+    font-family: $museo-700;
+
+    &:hover {
+        background-image: linear-gradient(to bottom, #1d87ba, #2ca4df);
+    }
+
+    &:active,
+    &:focus {
+        background-image: linear-gradient(to bottom, #1d87ba, #1d87ba);
+    }
+}

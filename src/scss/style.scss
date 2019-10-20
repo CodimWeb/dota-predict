@@ -1,0 +1,29 @@
+//bs 4
+@import "~bootstrap/scss/bootstrap";
+
+//abstract
+@import 'abstract/variables';
+
+//base
+@import 'base/fonts';
+@import 'base/ui';
+
+//components
+@import 'components/buttons';
+@import 'components/live';
+@import 'components/match';
+@import 'components/match-list';
+@import 'components/coefficient';
+@import 'components/rating';
+@import 'components/news';
+@import 'components/telegramm';
+@import 'components/detail-match';
+@import 'components/gamers';
+
+//layout
+@import 'layout/header';
+@import 'layout/content';
+@import 'layout/footer';
+
+// responsive
+@import 'responsive/responsive'
